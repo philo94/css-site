@@ -1,7 +1,8 @@
 body{
 margin: 0;
 text-align: center;
- font-family: 'Merriweather', serif;
+font-family: 'Merriweather', serif;
+flex-direction: column;
 
 }
 
@@ -22,6 +23,81 @@ h3{
 
 
 
+/******************************ID************************************************/
+
+#intro-heading{
+  font-size: 562.5%;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#paragraph-heading{
+  font-size: 125%;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+#skills-heading{
+  margin: 50px auto 50px;
+  padding-top: 15px;
+}
+
+#last-paragraph{
+  padding-bottom: 15px;
+}
+
+
+
+#introduction{
+width: 35%;
+margin: auto;
+line-height: 2;
+}
+
+#last{
+  border: dotted #222831 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
+
+#web-heading{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#copyright{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#hr-rule{
+  border: dotted #222831 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
+
+
+
+/******************************Div Class************************************************/
+
+.top-container{
+  background-color:#222831;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.bottom-container{
+background-color: #000000;
+padding-top: 20px;
+height: 120px;
+}
 
 /******************************Image Class************************************************/
 
@@ -62,105 +138,21 @@ h3{
   border-radius: 25%;
 }
 
-.web-development-2{
-  position: absolute;
-  left: 200px;
-  border-radius: 25%;
-}
-
-.web-development-3{
-  position: absolute;
-  right: 200px;
-  border-radius: 25%;
-}
-
 .android-development{
   border-radius: 25%;
 }
 
 
 
+/******************************Other Class************************************************/
 
-
-/******************************ID************************************************/
-
-#intro-heading{
-  font-size: 562.5%;
-  color: white;
-  margin-bottom: 10px;
-}
-
-#paragraph-heading{
-  font-size: 20px;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 40px;
-  font-weight: normal;
-  line-height: 2;
-}
-
-#skills-heading{
-  margin: 50px auto 50px;
-  padding-top: 15px;
-}
-
-#last-paragraph{
-  padding-bottom: 15px;
-}
-
-#introduction{
-width: 35%;
-margin: auto;
-line-height: 2;
-}
-
-#last{
-  margin-bottom: 0;
-}
-
-#web-heading{
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-#copyright{
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
-
-#hr-rule{
-  border: dotted #222831 6px;
-  border-bottom: none;
-  width: 10%;
-  margin: 100px auto;
-}
-
-
-
-
-
-
-/******************************Div Class************************************************/
-
-.top-container{
-  background-color:#222831;
-  position: relative;
-  padding-top: 100px;
-
-}
-
-.bottom-container{
-background-color: #000000;
-padding-top: 20px;
-height: 120px;
-}
 
 .skill-row-1{
   position: relative;
   padding-top: 50px;
-  width: 90%;
+  width: 50%;
   margin: 0 auto 100px;
+  line-height: 2;
 }
 
 .skill-row-2{
@@ -178,15 +170,15 @@ height: 120px;
 
 
 .contact-me{
-  background-color:  #dbdbdb;
+  background-color: white;
+  width: 50%;
   padding-top: 20px;
   padding-bottom: 50px;
-  height: 250px;
+  height: auto;
+  line-height: 2;
+  margin: 0 auto 100px;
 }
 
-
-
-/******************************Other Class************************************************/
 
 .button {
   background-color: #222831;
@@ -208,8 +200,8 @@ height: 120px;
 
 
 .footer-link{
-  margin:  15px 20px;
-
+  padding-right: 15px;
+  text-decoration: none;
 }
 
 a{
